@@ -59,3 +59,31 @@ button {
 button:hover {
     background-color: #e5d4ec;
 }
+
+.feedback {
+    color: #6d3f80;
+    font-weight: bold;
+    min-height: 20px;
+}
+
+#show-score {
+    background-color: #6d3f80;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#show-score:hover {
+    background-color: #553064;
+}
+
+#score-result {
+    color: #5d376d;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button:disabled {
+    opacity: 0.6;
+}
