@@ -16,48 +16,143 @@
     <h2>Question 1</h2>
     <p>Which muscle group is primarily worked during a squat?</p>
     <ul>
-      <li><button>Shoulders</button></li>
-      <li><button>Quadriceps</button></li>
-      <li><button>Bicep Curls</button></li>
-      <li><button>Chest</button></li>
+      <li>
+        <button class="answer-btn" data-question="1" data-correct="false">
+          Shoulders
+        </button>
+      </li>
+      <li>
+        <button class="answer-btn" data-question="1" data-correct="true">
+          Quadriceps
+        </button>
+      </li>
+      <li>
+        <button class="answer-btn" data-question="1" data-correct="false">
+          Biceps
+        </button>
+      </li>
+      <li>
+        <button class="answer-btn" data-question="1" data-correct="false">
+          Chest
+        </button>
+      </li>
     </ul>
+    <p id="feedback1" class="feedback"></p>
+
 
     <h2>Question 2</h2>
     <p>Which exercise primarily targets the glutes?</p>
     <ul>
-      <li><button>Hip Thrusts</button></li>
-      <li><button>Biceps</button></li>
-      <li><button>Shoulder Press</button></li>
-      <li><button>Lat Pulldowns</button></li>
+      <li>
+        <button class="answer-btn" data-question="2" data-correct="true">
+          Hip Thrusts
+        </button>
+      </li>
+      <li>
+        <button class="answer-btn" data-question="2" data-correct="false">
+          Biceps
+        </button>
+      </li>
+      <li>
+        <button class="answer-btn" data-question="2" data-correct="false">
+          Shoulder Press
+        </button>
+      </li>
+      <li>
+        <button class="answer-btn" data-question="2" data-correct="false">
+          Lat Pulldowns
+        </button>
+      </li>
     </ul>
+    <p id="feedback2" class="feedback"></p>
+
 
     <h2>Question 3</h2>
     <p>What does cardio help improve?</p>
     <ul>
-      <li><button>Cardiovascular endurance</button></li>
-      <li><button>Hair Growth</button></li>
-      <li><button>Eyesight</button></li>
-      <li><button>Height</button></li>
+      <li>
+        <button class="answer-btn" data-question="3" data-correct="true">
+          Cardiovascular endurance
+        </button>
+      </li>
+      <li>
+        <button class="answer-btn" data-question="3" data-correct="false">
+          Hair Growth
+        </button>
+      </li>
+      <li>
+        <button class="answer-btn" data-question="3" data-correct="false">
+          Eyesight
+        </button>
+      </li>
+      <li>
+        <button class="answer-btn" data-question="3" data-correct="false">
+          Height
+        </button>
+      </li>
     </ul>
+    <p id="feedback3" class="feedback"></p>
+
 
     <h2>Question 4</h2>
     <p>Which nutrient is important for muscle growth and recovery?</p>
     <ul>
-    <li><button>Protein</button></li>
-    <li><button>Salt</button></li>
-    <li><button>Sugar</button></li>
-    <li><button>Caffeine</button></li>
+      <li>
+        <button class="answer-btn" data-question="4" data-correct="true">
+          Protein
+        </button>
+      </li>
+      <li>
+        <button class="answer-btn" data-question="4" data-correct="false">
+          Salt
+        </button>
+      </li>
+      <li>
+        <button class="answer-btn" data-question="4" data-correct="false">
+          Sugar
+        </button>
+      </li>
+      <li>
+        <button class="answer-btn" data-question="4" data-correct="false">
+          Caffeine
+        </button>
+      </li>
     </ul>
+    <p id="feedback4" class="feedback"></p>
+
 
     <h2>Question 5</h2>
     <p>Why is warming up before exercise important?</p>
     <ul>
-      <li><button>It prepares the body for exercise</button></li>
-      <li><button>It replaces the workout</button></li>
-      <li><button>It makes you taller</button></li>
-      <li><button>It eliminates the need for rest</button></li>
+      <li>
+        <button class="answer-btn" data-question="5" data-correct="true">
+          It prepares the body for exercise
+        </button>
+      </li>
+      <li>
+        <button class="answer-btn" data-question="5" data-correct="false">
+          It replaces the workout
+        </button>
+      </li>
+      <li>
+        <button class="answer-btn" data-question="5" data-correct="false">
+          It makes you taller
+        </button>
+      </li>
+      <li>
+        <button class="answer-btn" data-question="5" data-correct="false">
+          It eliminates the need for rest
+        </button>
+      </li>
     </ul>
-    
+    <p id="feedback5" class="feedback"></p>
+
+
+    <button id="show-score">Show My Score</button>
+    <p id="score-result"></p>
+
+    <script src="script.js"></script>
+
   </body>
 
 </html>
